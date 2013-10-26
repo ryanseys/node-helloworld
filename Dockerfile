@@ -9,5 +9,4 @@ RUN apt-get install -y nodejs
 ADD . /src
 RUN cd /src; npm install
 EXPOSE 8080
-ENTRYPOINT ["node"]
-CMD ["/src/app.js"]
+CMD ["node", "/src/app.js"]
