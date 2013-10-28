@@ -8,5 +8,4 @@ RUN add-apt-repository ppa:chris-lea/node.js && apt-get update
 RUN apt-get install -y nodejs
 ADD . /src
 RUN cd /src; npm install
-EXPOSE 8080
 CMD ["node", "/src/app.js"]
