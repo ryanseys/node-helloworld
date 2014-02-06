@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu
 MAINTAINER Ryan Seys <ryan@ryanseys.com>
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise universe" >> /etc/apt/sources.list
 RUN apt-get update # DATE: 2013/10/26
